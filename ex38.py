@@ -20,8 +20,9 @@ print "There we go: ", stuff
 print "Let's do some things with stuff."
 
 print stuff[1]
-print stuff[-1] # whoa! fancy
+print stuff[-1] # stuff[-1]: the last one of stuff list.
 print stuff.pop()
-print ' '.join(stuff) # what? cool!
-print '#'.join(stuff[3:5]) # super stellar!
+print ' '.join(stuff) # using blank space to joint stuff list. 
+print '#'.join(stuff[3:5])
+# using '#' to joint stuff[3]:Telephone and stuff[4]:Light. 
 
